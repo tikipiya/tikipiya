@@ -1,3 +1,3 @@
 # こんにちは！
 たまーにPython弄ってます
-https://github-readme-stats.vercel.app/api?username=tikipiya&show_icons=true&theme=radical
+https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white
