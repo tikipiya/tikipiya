@@ -49,6 +49,7 @@ jobs:
           WIDTH: ${{ vars.WIDTH || '480' }}
           HIDE_TITLE: ${{ vars.HIDE_TITLE || 'false' }}
           HIDE_BORDER: ${{ vars.HIDE_BORDER || 'false' }}
+          DISABLE_ANIMATIONS: ${{ vars.DISABLE_ANIMATIONS || 'true' }}
           OUTPUT_PATH: './contributions.svg'
           PREVIEW_THEMES: ''
         run: node src/index.js

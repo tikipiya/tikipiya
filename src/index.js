@@ -94,6 +94,7 @@ async function main() {
   const svgWidth = parseInt(process.env.WIDTH || '480', 10);
   const hideTitle = process.env.HIDE_TITLE === 'true';
   const hideBorder = process.env.HIDE_BORDER === 'true';
+  const disableAnimations = process.env.DISABLE_ANIMATIONS !== 'false';
 
   if (!username) {
     console.error('Error: GitHub username is required.');
@@ -154,7 +155,7 @@ async function main() {
     }
 
     // SVG 생성
-    const svgOptions = { theme, autoTheme, maxRepos, title, sortBy, monthsAgo, locale, width: svgWidth, hideTitle, hideBorder };
+    const svgOptions = { theme, autoTheme, maxRepos, title, sortBy, monthsAgo, locale, width: svgWidth, hideTitle, hideBorder, disableAnimations };
     const svg = data.totalRepos > 0
       ? generateSVG(data, svgOptions)
       : generateEmptySVG(username, { theme, autoTheme, width: svgWidth, title });
@@ -173,7 +174,7 @@ async function main() {
     if (previewThemes.length > 0) {
       console.log(`\nGenerating preview themes: ${previewThemes.join(', ')}`);
       for (const previewTheme of previewThemes) {
-        const previewOptions = { theme: previewTheme, autoTheme: false, maxRepos, title, sortBy, monthsAgo, locale, width: svgWidth, hideTitle, hideBorder };
+        const previewOptions = { theme: previewTheme, autoTheme: false, maxRepos, title, sortBy, monthsAgo, locale, width: svgWidth, hideTitle, hideBorder, disableAnimations };
         const previewSvg = data.totalRepos > 0
           ? generateSVG(data, previewOptions)
           : generateEmptySVG(username, { theme: previewTheme, autoTheme: false, width: svgWidth, title });

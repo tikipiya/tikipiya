@@ -180,6 +180,7 @@ function buildThemeCss(rootClass, theme, autoTheme) {
  * @param {string} options.locale - 날짜 표시 로케일 (e.g. 'en-US', 'ko-KR')
  * @param {boolean} options.hideTitle - 헤더 숨김
  * @param {boolean} options.hideBorder - 카드 테두리 숨김
+ * @param {boolean} options.disableAnimations - README 表示用（GitHub は animation を除去する）
  */
 export function generateSVG(data, options = {}) {
   const {
@@ -192,7 +193,8 @@ export function generateSVG(data, options = {}) {
     monthsAgo = null,
     locale = 'en-US',
     hideTitle = false,
-    hideBorder = false
+    hideBorder = false,
+    disableAnimations = false
   } = options;
 
   // 카드 하단 badge(x=14, width=65)와 date(x=85 + icon + text)가 양쪽에서 만나
@@ -263,7 +265,9 @@ export function generateSVG(data, options = {}) {
   const totalHeight = headerHeight + gridHeight + padding * 2;
 
   const themeCss = buildThemeCss(rootClass, theme, autoTheme);
-  const animationCss = `
+  const animationCss = disableAnimations
+    ? ''
+    : `
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
