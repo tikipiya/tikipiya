@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://git.io/streak-stats">
     <img
-      src="https://streak-stats.demolab.com/?user=tikisan&theme=github-dark&locale=ja&hide_border=true&border_radius=10"
+      src="https://streak-stats.demolab.com/?user=tikipiya&theme=github-dark&locale=ja&hide_border=true&border_radius=10"
       alt="GitHub Streak"
     />
   </a>
@@ -85,7 +85,7 @@
 ## Links
 
 <p align="center">
-  <a href="https://github.com/tikisan">GitHub</a>
+  <a href="https://github.com/tikipiya">GitHub</a>
   ·
   <a href="https://x.com/tikisan_kosen">Twitter（旧 X）アカウント</a>
   ·
