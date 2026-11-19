@@ -23,10 +23,9 @@
   </a>
 </p>
 
-<!-- 3D Contrib は初回 Actions 実行後に表示されます -->
 <p align="center">
   <img
-    src="./profile-3d-contrib/profile-night-green-animate.svg"
+    src="./profile-3d-contrib/profile-night-green.svg"
     alt="3D Contribution"
     width="100%"
   />
