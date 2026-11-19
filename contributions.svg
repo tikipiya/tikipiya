@@ -1,0 +1,34 @@
+<svg width="480" height="150" viewBox="0 0 480 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Open-Source Contributions: no contributions yet" class="oss-card-clkwjr17i" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Open-Source Contributions</title>
+  <desc>No open-source contributions found for tikisan</desc>
+  <style>
+    .oss-card-clkwjr17i .bg-start { stop-color: #1a1b26; }
+    .oss-card-clkwjr17i .bg-end { stop-color: #16161e; }
+    .oss-card-clkwjr17i .card-bg { fill: #24283b; }
+    .oss-card-clkwjr17i .card-border { stroke: #414868; }
+    .oss-card-clkwjr17i .icon-bg { fill: #414868; }
+    .oss-card-clkwjr17i .title-text { fill: #c0caf5; }
+    .oss-card-clkwjr17i .subtitle-text { fill: #73daca; }
+    .oss-card-clkwjr17i .subtitle-icon { fill: #73daca; }
+    .oss-card-clkwjr17i .card-title { fill: #c0caf5; }
+    .oss-card-clkwjr17i .pr-number { fill: #7dcfff; }
+    .oss-card-clkwjr17i .card-text { fill: #9aa5ce; }
+    .oss-card-clkwjr17i .badge-bg { fill: #73daca; }
+    .oss-card-clkwjr17i .badge-text { fill: #1a1b26; }
+    .oss-card-clkwjr17i .date-icon { fill: #73daca; }
+    .oss-card-clkwjr17i .date-text { fill: #565f89; }
+  </style>
+  <defs>
+    <linearGradient id="bgGrad-clkwjr17i" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" class="bg-start"/>
+      <stop offset="100%" class="bg-end"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="150" fill="url(#bgGrad-clkwjr17i)" rx="16"/>
+  <text class="title-text" x="30" y="45" font-size="22" font-weight="700">
+    Open-Source Contributions
+  </text>
+  <text class="card-text" x="240" y="100" font-size="14" text-anchor="middle">
+    No contributions yet. Start contributing
+  </text>
+</svg>
